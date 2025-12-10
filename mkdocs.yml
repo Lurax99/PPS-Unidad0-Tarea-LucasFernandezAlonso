@@ -1,0 +1,17 @@
+site_name: PPS Unidad 0 - Tarea RA5
+site_description: Documentación del proyecto
+site_author: Lucas Fernández Alonso
+
+nav:
+  - Inicio: index.md
+  - Git: git.md
+  - GitHub Actions: gitActions.md
+  - GitHub Pages: gitPages.md
+  - Docker: docker.md
+  - Conclusiones: conclusiones.md
+
+theme:
+  name: mkdocs
+
+plugins:
+  - search
