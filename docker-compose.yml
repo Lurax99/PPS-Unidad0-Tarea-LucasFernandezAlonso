@@ -1,0 +1,9 @@
+services:
+  nginx-docs:
+    image: nginx:alpine
+    container_name: PPS-Unidad0-Tarea-LucasFernandezAlonso
+    ports:
+      - "8085:80"
+    volumes:
+      - ./:/usr/share/nginx/html:ro
+    restart: always
