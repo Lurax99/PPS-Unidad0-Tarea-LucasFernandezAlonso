@@ -1,0 +1,261 @@
+[
+    {
+        "Id": "e96bc7d31519034233307d7fb12f50c096422641a12668fe470038c8a6dd1662",
+        "Created": "2025-12-13T13:57:25.598850016Z",
+        "Path": "/docker-entrypoint.sh",
+        "Args": [
+            "nginx",
+            "-g",
+            "daemon off;"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 36669,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2025-12-13T13:57:31.339038302Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:a236f84b9d5d27fe4bf2bab07501cccdc8e16bb38a41f83e245216bbd2b61b5c",
+        "ResolvConfPath": "/var/lib/docker/containers/e96bc7d31519034233307d7fb12f50c096422641a12668fe470038c8a6dd1662/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/e96bc7d31519034233307d7fb12f50c096422641a12668fe470038c8a6dd1662/hostname",
+        "HostsPath": "/var/lib/docker/containers/e96bc7d31519034233307d7fb12f50c096422641a12668fe470038c8a6dd1662/hosts",
+        "LogPath": "/var/lib/docker/containers/e96bc7d31519034233307d7fb12f50c096422641a12668fe470038c8a6dd1662/e96bc7d31519034233307d7fb12f50c096422641a12668fe470038c8a6dd1662-json.log",
+        "Name": "/PPS-Unidad0-Tarea-LucasFernandezAlonso",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/home/PPSLucasFernandez/PPS-Unidad0-Tarea-LucasFernandezAlonso:/usr/share/nginx/html:ro"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "pps-unidad0-tarea-lucasfernandezalonso_default",
+            "PortBindings": {
+                "80/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "8085"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "always",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware",
+                "/sys/devices/virtual/powercap"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/9609003f5b670591fe30a83a71f5e289229fe843a3b75583a735509fa635adad-init/diff:/var/lib/docker/overlay2/07133c3a2e657e8131dc09dd2ff1ce2fe3a014a38164a0720f81a833ee1960e9/diff:/var/lib/docker/overlay2/4d4fc4b06f8925184bef9d408d7d596c31a1f80d65eff83211966c4a83eb5830/diff:/var/lib/docker/overlay2/d3d638ebd734097543b9e9cef596313c5dddc29930220e89dcc2d5d97f0df0ce/diff:/var/lib/docker/overlay2/c40af481fd3a842b77fb6724fe3fab217af67872d43c7d18906773338e9a5aa9/diff:/var/lib/docker/overlay2/aec80d70bd30944bc65be400968277b8e85f402d8643ad694174a32e310131cb/diff:/var/lib/docker/overlay2/2acc1296a21c77185be74c662527316c288d92f260167d6d1909bfb08643f93a/diff:/var/lib/docker/overlay2/3a5916d9866918d8c96c208e837cb160e32cdff5e8aff92a50464a9a78e2b5fd/diff:/var/lib/docker/overlay2/a58b20147874123cfc8bbb499adca0cacb3ced8eaad1ed9dfdb451b976efb706/diff",
+                "MergedDir": "/var/lib/docker/overlay2/9609003f5b670591fe30a83a71f5e289229fe843a3b75583a735509fa635adad/merged",
+                "UpperDir": "/var/lib/docker/overlay2/9609003f5b670591fe30a83a71f5e289229fe843a3b75583a735509fa635adad/diff",
+                "WorkDir": "/var/lib/docker/overlay2/9609003f5b670591fe30a83a71f5e289229fe843a3b75583a735509fa635adad/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/home/PPSLucasFernandez/PPS-Unidad0-Tarea-LucasFernandezAlonso",
+                "Destination": "/usr/share/nginx/html",
+                "Mode": "ro",
+                "RW": false,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "e96bc7d31519",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "80/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "NGINX_VERSION=1.29.4",
+                "PKG_RELEASE=1",
+                "DYNPKG_RELEASE=1",
+                "NJS_VERSION=0.9.4",
+                "NJS_RELEASE=1"
+            ],
+            "Cmd": [
+                "nginx",
+                "-g",
+                "daemon off;"
+            ],
+            "Image": "nginx:alpine",
+            "Volumes": null,
+            "WorkingDir": "/",
+            "Entrypoint": [
+                "/docker-entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "com.docker.compose.config-hash": "5c2a7ef5441944388b443b24b3a7aba88cd49c44c18e5155622e425bce515efb",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.image": "sha256:a236f84b9d5d27fe4bf2bab07501cccdc8e16bb38a41f83e245216bbd2b61b5c",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "pps-unidad0-tarea-lucasfernandezalonso",
+                "com.docker.compose.project.config_files": "/home/PPSLucasFernandez/PPS-Unidad0-Tarea-LucasFernandezAlonso/docker-compose.yml",
+                "com.docker.compose.project.working_dir": "/home/PPSLucasFernandez/PPS-Unidad0-Tarea-LucasFernandezAlonso",
+                "com.docker.compose.service": "nginx-docs",
+                "com.docker.compose.version": "2.32.4",
+                "maintainer": "NGINX Docker Maintainers <docker-maint@nginx.com>"
+            },
+            "StopSignal": "SIGQUIT"
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "b498e26822921c33ed21b6e849c756ec4b6311e301a5df1ed8218b46b66bd301",
+            "SandboxKey": "/var/run/docker/netns/b498e2682292",
+            "Ports": {
+                "80/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "8085"
+                    },
+                    {
+                        "HostIp": "::",
+                        "HostPort": "8085"
+                    }
+                ]
+            },
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "pps-unidad0-tarea-lucasfernandezalonso_default": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "PPS-Unidad0-Tarea-LucasFernandezAlonso",
+                        "nginx-docs"
+                    ],
+                    "MacAddress": "02:42:ac:12:00:02",
+                    "DriverOpts": null,
+                    "NetworkID": "57a6bd3619eef76f3e2b91b624575e53e32fe2dba30be548b607fd61541a8ba1",
+                    "EndpointID": "e553582fd78923fbcc0b14fc8d49dcdffb408f3f770b786c0faf8263f73630c4",
+                    "Gateway": "172.18.0.1",
+                    "IPAddress": "172.18.0.2",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "PPS-Unidad0-Tarea-LucasFernandezAlonso",
+                        "nginx-docs",
+                        "e96bc7d31519"
+                    ]
+                }
+            }
+        }
+    }
+]
